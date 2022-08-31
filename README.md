@@ -42,7 +42,7 @@ Change the line `(goggles _unit isEqualTo protection)` to `(headgear _unit isEqu
 https://www.youtube.com/watch?v=h_QHDqJ4uJQ
 
 ## Credits:
-Credits to Chuc for his original Radiation script - Amazing radiation script, I just modified it a bit to require multiple of items for the player to be protected in the zones.</br>
+Credits to **Chuc** for his original Radiation script - Amazing radiation script, I just modified it a bit to require multiple of items for the player to be protected in the zones.</br>
 https://forums.bohemia.net/forums/topic/217071-radiation-script/</br>
-The project is heavily inspired by ALIAS' script.</br>
+The project is heavily inspired by **ALIAS'** script.</br>
 https://steamcommunity.com/sharedfiles/filedetails/?id=909790601
