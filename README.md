@@ -21,7 +21,7 @@ Change the line `(goggles _unit isEqualTo protection)` to `(headgear _unit isEqu
 ## Notes:
 * If you wish to use the Arma 3 Contact DLC cbrn gear, keep in mind that the unit (cbrn_specialist) spawns with "G_AirPurifyingRespirator_01_nofilter_F" and later respawns with "G_AirPurifyingRespirator_01_F".
 * If you wish to change the default sounds provided with this script, you can find free samples here https://freesound.org/home/. Audacity can be used to edit the sound according to your needs, custom sounds need to be exported to .ogg format.
-
+* The custom breathing sound was removed, but it is implemented in the old version (v1) of the script. The logic used for the old script had a costy performance impact, thus I had to rewrite it. Unfortunetly, the new logic does not work well with the breathing sound and I'm not sure how to implement it properly. Futhermore, the breathing sound is overlayed on top of the original breathing sound. I'm not sure how to suppress this sound (or if it's even possible) and it may be something I'll never implement again. If you happen to know how to solve this and want to help, just raise an issue and comment on it.
 
 ## Features:
 * gasmask.sqf is compiled to memory and lodaded from there instead of reading from disk each time.
@@ -41,5 +41,8 @@ Change the line `(goggles _unit isEqualTo protection)` to `(headgear _unit isEqu
 ## References:
 https://www.youtube.com/watch?v=h_QHDqJ4uJQ
 
-## Credits to Chuc for his Radiation script:
-https://forums.bohemia.net/forums/topic/217071-radiation-script/
+## Credits:
+Credits to Chuc for his original Radiation script - Amazing radiation script, I just modified it a bit to require multiple of items for the player to be protected in the zones.</br>
+https://forums.bohemia.net/forums/topic/217071-radiation-script/</br>
+The project is heavily inspired by ALIAS' script.</br>
+https://steamcommunity.com/sharedfiles/filedetails/?id=909790601
