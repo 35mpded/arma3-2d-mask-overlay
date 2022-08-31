@@ -1,6 +1,10 @@
 # Arma 3 - [MP Compatbile] Gas Mask/Helmet Overlay
 The script is intended for use in multiplayer missions, but with minor modification it will work just as well in singleplayer.
 
+Example mission in which this script is used:</br>
+https://steamcommunity.com/sharedfiles/filedetails/?id=2781568799</br>
+https://forums.bohemia.net/forums/topic/237970-mp-hazardzone-compete-with-other-players-in-an-area-with-great-biological-threat/
+
 The main purpose of this script is to provide the necessary building grounds to create CBRN missions. When a gas mask is equipped, it will add the built-in or custom ARMA 3 gas mask overlay and play the related equip/unequip & breathing sounds. In the example mission further scripted functionality is demonstrated:
 * Proper usage & trigger of decontamination showers.
 * Hazard zones in which players without appropriate CBRN gear will recieve damage indicated by screen effects.
