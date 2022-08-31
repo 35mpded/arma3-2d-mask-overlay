@@ -1,0 +1,36 @@
+onLoadName 		= GasMask Overlay v1.0;
+author 			= sekurlsa;									
+onLoadMission 	= GasMask Overlay v1.0;
+
+class CfgSounds
+{
+	class maskPutOn
+	{
+		name = "maskPutOn";
+		sound[] = {"\overlay\sound\maskPutOn.ogg", 1, 1.0};
+		titles[] = {0,""};
+	};	
+	class maskTakeOff
+	{
+		name = "maskTakeOff";
+		sound[] = {"\overlay\sound\maskTakeOff.ogg", 1, 1.0};
+		titles[] = {0,""};
+	};	
+	class maskBreath
+	{
+		name = "maskBreath";
+		sound[] = {"\overlay\sound\maskBreath.ogg", 0.6, 1.0};
+		titles[] = {0,""};
+	};
+	class NoSound 
+	{
+		name = "NoSound";
+		sound[] = {"", 0, 1};
+		titles[] = {0, ""};
+	};
+};
+
+class RscTitles
+{
+#include "overlay\textures\overlay_texture.hpp"
+};
