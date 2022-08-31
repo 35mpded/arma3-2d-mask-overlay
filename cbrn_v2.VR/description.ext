@@ -1,0 +1,35 @@
+// Self explanatory
+onLoadName 		= CBRN v2.0;
+author 			= sekurlsa;									
+onLoadMission 	= CBRN functionality and Gas Mask overlays demo mission;
+//respawnOnStart = 1
+
+
+// Gas mask sounds should be defined here otherwise the script will not know how to find them
+class CfgSounds
+{
+	class maskPutOn
+	{
+		name = "maskPutOn";
+		sound[] = {"\overlay\sound\maskPutOn.ogg", 1, 1.0};
+		titles[] = {0,""};
+	};	
+	class maskTakeOff
+	{
+		name = "maskTakeOff";
+		sound[] = {"\overlay\sound\maskTakeOff.ogg", 1, 1.0};
+		titles[] = {0,""};
+	};	
+	class NoSound 
+	{
+		name = "NoSound";
+		sound[] = {"", 0, 1};
+		titles[] = {0, ""};
+	};
+};
+
+// Custom gas mask overlays should be defined here otherwise the script will not know how to find them
+class RscTitles
+{
+#include "overlay\textures\overlay_texture.hpp"
+};
